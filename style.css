@@ -140,7 +140,7 @@ header{
 
     align-items:center;
 
-    padding:18px 8%;
+    padding:8px 5%;
 
     background:rgba(255,255,255,.08);
 
@@ -166,7 +166,7 @@ header.scrolled{
 
 .logo img{
 
-    width:95px;
+    width:60px;
    
    transition:.3s;
 }
@@ -281,6 +281,8 @@ header.scrolled .menu-toggle{
 
     object-position:center;
 
+   z-index:-2;
+
 }
 
 @keyframes heroZoom{
@@ -313,7 +315,7 @@ header.scrolled .menu-toggle{
 
     position:absolute;
 
-    top:50%;
+    top:55%;
 
     left:50%;
 
@@ -451,7 +453,7 @@ footer{
 
     width:max-content;
 
-    animation:scrollFlavors 55s linear infinite;
+    animation:scrollLeft 55s linear infinite;
 
     padding:20px 0;
 
@@ -712,7 +714,7 @@ footer{
 
     width:max-content;
 
-    animation:scrollReviews 45s linear infinite;
+    animation:scrollRight 65s linear infinite;
 
     padding:20px 0;
 
@@ -860,11 +862,15 @@ footer{
 
 .newsletter-image{
 
+   width:100%;
+
     margin-top:40px;
 
 }
 
 .newsletter-image img{
+
+    width:100%;
 
     border-radius:20px;
 
@@ -993,12 +999,6 @@ footer{
     opacity:1;
 
     transform:translateY(-4px) scale(1.15);
-
-}
-
-.social-icons img:hover{
-
-    transform:scale(1.15);
 
 }
 
