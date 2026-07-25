@@ -511,6 +511,8 @@ footer{
 
     object-fit:cover;
 
+    object-position: center top;
+
 }
 
 .flavor-info{
