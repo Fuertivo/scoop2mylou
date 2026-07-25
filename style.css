@@ -166,7 +166,7 @@ header.scrolled{
 
 .logo img{
 
-    width:170px;
+    width:95px;
 
 }
 
@@ -273,6 +273,8 @@ header.scrolled .menu-toggle{
     height:100%;
 
     object-fit:cover;
+
+    object-position:center center;
 
     animation:heroZoom 18s ease-in-out infinite alternate;
 
@@ -542,7 +544,7 @@ footer{
 
     display:grid;
 
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1.2fr .8fr;
 
     gap:70px;
 
