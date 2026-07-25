@@ -154,3 +154,26 @@ window.addEventListener("scroll", () => {
     });
 
 });
+
+// ================================
+// Scroll ANIMATION
+// ================================
+const flavorTrack = document.querySelector(".flavor-track");
+
+const flavorCards = [...flavorTrack.children];
+
+flavorCards.forEach(card=>{
+
+    flavorTrack.appendChild(card.cloneNode(true));
+
+});
+
+const reviewTrack=document.querySelector(".review-track");
+
+const reviewCards=[...reviewTrack.children];
+
+reviewCards.forEach(card=>{
+
+    reviewTrack.appendChild(card.cloneNode(true));
+
+});
